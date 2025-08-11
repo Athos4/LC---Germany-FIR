@@ -1,10 +1,12 @@
+///////////////////////////// Rhein Radar (Kalsuhe)
+----------------- West group
 EDUU W NTM12
 EDUU W NTM34
 EDUU W SLN1
 EDUU W SLN23
 EDUU W GO1
 EDUU W TGO23
------------------
+----------------- East group
 EDUU E ERL1
 EDUU E ERL2
 EDUU E SAL1
@@ -15,7 +17,7 @@ EDUU E HVL1
 EDUU E HVL2
 EDUU E OSE1
 EDUU E OSE2
------------------
+----------------- South group
 EDUU S DON1
 EDUU S DON234
 EDUU S ISA1
@@ -24,7 +26,7 @@ EDUU S CHI1
 EDUU S CHI234
 EDUU S ALP1
 EDUU S ALP234
------------------
+----------------- Central group
 EDUU C FFM12
 EDUU C FFM23
 EDUU C WUR12
@@ -32,17 +34,17 @@ EDUU C WUR34
 EDUU C FUL12
 EDUU C FUL34
 
-/////////////////////////////
-
-EDYY R RHRL
-EDYY R RHRH
-EDYY R MNSL
-EDYY R MNSH
-EDYY R CELL
-EDYY R CELH
-EDYY R SOLL
-EDYY R SOLH
------------------
+///////////////////////////// Maastricht radar
+----------------- Hannover group
+EDYY H RHRL
+EDYY H RHRH
+EDYY H MNSL
+EDYY H MNSH
+EDYY H CELL
+EDYY H CELH
+EDYY H SOLL
+EDYY H SOLH
+----------------- DeCo group
 EDYY D DELL
 EDYY D DELH
 EDYY D JEVL
@@ -50,67 +52,67 @@ EDYY D JEVH
 EDYY D HOLL
 EDYY D HOLH
 
-/////////////////////////////
-
+///////////////////////////// Bremen radar
+----------------- Berlin group
 EDWW BER DBAN
 EDWW BER DBAS
 EDWW BER DBDN
 EDWW BER DBDS
------------------
+----------------- North group A
 EDWW NA ALR
 EDWW NA HEI
 EDWW NA HAM
------------------
+----------------- North group B
 EDWW NB EID
 EDWW NB FRI
------------------
+----------------- East group
 EDWW E BOR
 EDWW E FLG
 EDWW E MAR
 EDWW E MRZ
------------------
+----------------- South group
 EDWW S EMS
 EDWW S HRZ
 EDWW S HAN
 
-/////////////////////////////
-
+///////////////////////////// Langen radar
+----------------- Group 1
 EDGG 1 BOT
 EDGG 1 DUS
------------------
+----------------- Group 2
 EDGG 2 BAD
 EDGG 2 LBU
 EDGG 2 MAR
 EDGG 2 NKR
------------------
+----------------- Group 3
 EDGG 3 GED
 EDGG 3 GIN
 EDGG 3 HEF
 EDGG 3 SIG
 EDGG 3 TAU
------------------
+----------------- Group 4
 EDGG 4 DKB
 EDGG 4 HAB
 EDGG 4 KNG
 EDGG 4 KTG
 EDGG 4 PSA
------------------
+----------------- Group 5
 EDGG 5 EIF
 EDGG 5 KIR
 EDGG 5 PFA
 EDGG 5 RUD
------------------
+----------------- Group 6
 EDGG 6 HMM
 EDGG 6 PAS
------------------
+----------------- Group 7
 EDGG 7 DKA
 EDGG 7 NOR
------------------
+----------------- Group 8
 EDGG 8 REU
 EDGG 8 STG
 
-/////////////////////////////
-
+///////////////////////////// Munchen radar
+----------------- West group
 EDMM W ALB
 EDMM W EGG
 EDMM W NDG
@@ -121,7 +123,7 @@ EDMM W FUE
 EDMM W TRU
 EDMM W WLD
 EDMM W ZUG
------------------
+----------------- East group
 EDMM E BBG
 EDDM E FRK
 EDDM E GER
@@ -131,7 +133,7 @@ EDDM E MEI
 EDDM E SAS
 EDDM E TRN
 EDDM E TRS
------------------
+----------------- Approach group
 EDMM A ILR
 EDDM A SWA
 EDDM A DMNH

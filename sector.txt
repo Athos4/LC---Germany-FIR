@@ -1,0 +1,3346 @@
+
+
+;
+; EDMM LCH
+;
+	Sector LCH
+	Type APP
+	Frequency 129.450
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GAPP
+	Help 3316
+	Centre	N482129 E0101346
+	ScanCentre N483413 E0113551
+	Range	110
+	TList	N490338 E0111452 On
+	HList	N490556 E0091002 On
+	OBay	N490440 E0103121 On
+	ABay	N490411 E0105307 On
+	Status	N490608 E0085235 On
+	CallRadius1 N481439 E0101642 38 19 135
+	CallRadius3 N475107 E0093934 12 19 135
+	RadarSeparation 5
+	Filter 0,165
+	Aerodromes EDJA
+	HoldFixes NONE
+	Adjacent FUE,REU,STG,DMSL,DMNL
+
+;
+; EDBB MAR - Mark
+;
+	Sector MAR
+	Type TCC
+	Frequency 136.050
+	Callsign Bremen
+	Transfer T_Bremen
+	Preferences GTCC
+	Help 3113
+	Centre	N530208 E0123605
+	ScanCentre N5306.1 E01052.4
+	Range	160
+	TList	N540111 E0141832 On
+	HList	N535640 E0142816 Off
+	OBay	N540433 E0130815 On
+	ABay	N540257 E0134325 On
+	Status	N540917 E0102749 On
+	CallRadius1 N525107 E0114024 35 8 315
+	CallRadius2 N525742 E0125531 35 105 315
+	CallRadius3 N530530 E0140455 31 105 315
+	CallRadius4 N532711 E0111459 12 105 315
+	RadarSeparation 5
+	Filter 8,315
+	Aerodromes EDDB,EDDT
+	HoldFixes NONE
+	Adjacent MRZ,HEI,CEL,HRZ,SOL,BOR,FLG
+
+; EDVV MNS - Muenster
+	Sector MNS
+	Type ACC
+	Frequency 133.855
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3503
+	Centre	N521506 E0083149
+	ScanCentre N5246.3 E00847.3
+	Range	220
+	TList	N534031 E0104321 On
+	HList	N533348 E0105720 Off
+	OBay	N534215 E0090714 On
+	ABay	N534132 E0095518 On
+	Status	N534100 E0052904 On
+	CallRadius1 N530239 E0084656 36 215 345
+	CallRadius2 N520934 E0074800 45 215 345
+	CallRadius3 N521451 E0063348 30 215 345
+	CallRadius4 N5119.5 E00826.0 32 215 345
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent RHR,CEL,SOL,FFM
+	Secondary MNSH
+;
+; EDVV MNSH - Muenster
+;
+	Sector MNSH
+	Type ACC
+	Frequency 135.310
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3504
+	Centre	N521506 E0083149
+	ScanCentre N5246.3 E00847.3
+	Range	220
+	TList	N534031 E0104321 On
+	HList	N533348 E0105720 Off
+	OBay	N534215 E0090714 On
+	ABay	N534132 E0095518 On
+	Status	N534100 E0052904 On
+	CallRadius1 N530239 E0084656 36 315 690
+	CallRadius2 N520934 E0074800 45 315 690
+	CallRadius3 N521451 E0063348 30 315 690
+	CallRadius4 N5119.5 E00826.0 32 315 690
+	RadarSeparation 5
+	Filter 315,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent RHR,CEL,SOL,FFM
+	Secondary MNS
+;
+; EDBB MRZ - Mueritz
+;
+	Sector MRZ
+	Type APP
+	Frequency 124.175
+	Callsign Bremen
+	Transfer T_Bremen
+	Preferences GAPP
+	Help 3114
+	Centre	N540256 E0125817
+	ScanCentre N5306.1 E01052.4
+	Range	190
+	TList	N551221 E0150354 On
+	HList	N550653 E0151555 Off
+	OBay	N551646 E0133805 On
+	ABay	N551440 E0142102 On
+	Status	N552301 E0102216 On
+	CallRadius1 N5419.5 E01321.6 55 8 315
+	CallRadius2 N5344.5 E01207.5 47 8 315
+	CallRadius3 N5341.4 E01329.8 38 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Aerodromes ETNL
+	HoldFixes BADOB,LAGIP,BADSU,TETKO
+	Adjacent MAR,HEI
+;
+; EDDM NDG
+;
+	Sector NDG
+	Type TCC
+	Frequency 124.825
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3319
+	Centre	N483914 E0105457
+	ScanCentre N483413 E0113551
+	Range	120
+	TList	N492437 E0120217 On
+	HList	N492853 E0092617 On
+	OBay	N492527 E0113824 On
+	ABay	N492614 E0111430 On
+	Status	N481327 E0092337 On
+	CallRadius1 N4825.7 E01131.3 28 85 335
+	CallRadius2 N4848.7 E01046.1 20 85 335
+	CallRadius3 N484946 E0102507 24 85 335
+	CallRadius4 N4844.7 E00945.7 12 115 255
+	RadarSeparation 5
+	Filter 75,305
+	Aerodromes EDDM
+	HoldFixes ROKIL,TEKSI
+	Adjacent ALB,RDG,EGG,TEG,FUE,DKB
+
+;
+; EDUU NTM - Nattenheim
+;
+	Sector NTM
+	Type ACC
+	Frequency 132.080
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3409
+	Centre	N495420 E0072657
+	ScanCentre N4927.7 E00849.2
+	Range	160
+	TList	N505726 E0085545 On
+	HList	N505212 E0090519 Off
+	OBay	N505750 E0074943 On
+	ABay	N505743 E0082250 On
+	Status	N505625 E0052024 On
+	CallRadius1 N501208 E0070426 30 215 355
+	CallRadius2 N5021.7 E00739.9 30 215 355
+	CallRadius3 N4952.2 E00752.3 32 215 355
+	CallRadius4 N493527 E0072258 38 215 355
+	RadarSeparation 5
+	Filter 215,355
+	Aerodromes NONE
+	Secondary NTMH
+	HoldFixes NONE
+	Adjacent FFM,SLN,RHR
+;
+; EDUU NTMH - Nattenheim Hi
+;
+	Sector NTMH
+	Type ACC
+	Frequency 132.780
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3410
+	Centre	N495420 E0072657
+	ScanCentre N4927.7 E00849.2
+	Range	160
+	TList	N505726 E0085545 On
+	HList	N505212 E0090519 Off
+	OBay	N505750 E0074943 On
+	ABay	N505743 E0082250 On
+	Status	N505625 E0052024 On
+	CallRadius1 N501208 E0070426 30 295 385
+	CallRadius2 N5021.7 E00739.9 30 295 385
+	CallRadius3 N4952.2 E00752.3 32 295 385
+	CallRadius4 N493527 E0072258 38 295 385
+	RadarSeparation 5
+	Filter 295,385
+	Aerodromes NONE
+	Secondary NTM,NTMT
+	HoldFixes NONE
+	Adjacent FFM,SLN,RHR
+;
+; EDUU NTM - Nattenheim Top
+;
+	Sector NTMT
+	Type ACC
+	Frequency 136.480
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3411
+	Centre	N495420 E0072657
+	ScanCentre N4927.7 E00849.2
+	Range	160
+	TList	N505726 E0085545 On
+	HList	N505212 E0090519 Off
+	OBay	N505750 E0074943 On
+	ABay	N505743 E0082238 On
+	Status	N505625 E0052024 On
+	CallRadius1 N501208 E0070426 30 325 690
+	CallRadius2 N5021.7 E00739.9 30 325 690
+	CallRadius3 N4952.2 E00752.3 32 325 690
+	CallRadius4 N493527 E0072258 38 325 690
+	RadarSeparation 5
+	Filter 325,690
+	Aerodromes NONE
+	Secondary NTMH
+	HoldFixes NONE
+	Adjacent FFM,SLN,RHR
+;
+; EDBB OSE - Ostsee
+;
+	Sector OSE
+	Type ACC
+	Frequency 133.235
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3412
+	Centre	N535337 E0130031
+	ScanCentre N5229.0 E01233.7
+	Range	210
+	TList	N551009 E0151935 On
+	HList	N550407 E0153214 Off
+	OBay	N551510 E0134507 On
+	ABay	N551249 E0143215 On
+	Status	N552220 E0100813 On
+	CallRadius1 N5419.5 E01321.6 55 265 690
+	CallRadius2 N5344.7 E01219.4 53 265 690
+	CallRadius3 N5317.8 E01324.0  45 265 690
+	CallRadius4 N530204 E0113246 28 265 690
+	RadarSeparation 5
+	Filter 255,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent CEL,HVL
+
+
+;
+; EDDM RDG - Roding
+;
+	Sector RDG
+	Type TCC
+	Frequency 132.550
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3320
+	Centre	N490838 E0121611
+	ScanCentre N483413 E0113551
+	Range	110
+	TList	N494940 E0132000 On
+	HList	N494521 E0132538 Off
+	OBay	N495133 E0123552 On
+	ABay	N495036 E0125756 On
+	Status	N495452 E0105528 On
+	ScaleMarker	N483036	E0105008
+	CallRadius1 N492659 E0121746 28 18 345
+	CallRadius2 N485701 E0122235 28 18 345
+	CallRadius3 N491428 E0125530 18 18 345
+	RadarSeparation 5
+	Filter 0,345
+	Aerodromes EDDM
+	HoldFixes NONE
+	Adjacent DMNH,ALB,EGG,FRKL,FRKH
+	Secondary EGG
+
+
+;
+; EDUU RHR - Ruhr
+;
+	Sector RHR
+	Type ACC
+	Frequency 132.615
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3505
+	Centre	N511901 E0070317
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N521827 E0082840 On
+	HList	N521417 E0083746 Off
+	OBay	N521837 E0072507 On
+	ABay	N521836 E0075654 On
+	Status	N521650 E0050016 On
+	CallRadius1 N511519 E0071422 38 215 345
+	CallRadius2 N511035 E0061909 22 215 365
+	CallRadius3 N5152.1 E00630.2 30 215 365
+	CallRadius4 N5051.3 E00724.7 24 215 345
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	Secondary RHRH
+	HoldFixes NONE
+	Adjacent NTM,MNS,FFM,FLEL,LNL,NIL
+;
+; EDUU RHRH - Ruhr High
+;
+	Sector RHRH
+	Type ACC
+	Frequency 135.490
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3506
+	Centre	N511901 E0070317
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N521827 E0082840 On
+	HList	N521417 E0083746 Off
+	OBay	N521830 E0072507 On
+	ABay	N521829 E0075654 On
+	Status	N521650 E0050016 On
+	CallRadius1 N511519 E0071422 38 315 690
+	CallRadius2 N511035 E0061909 22 315 690
+	CallRadius3 N5152.1 E00630.2 30 315 690
+	CallRadius4 N5051.3 E00724.7 24 315 690
+	RadarSeparation 5
+	Filter 315,690
+	Aerodromes NONE
+	Secondary RHR
+	HoldFixes NONE
+	Adjacent NTM,MNS,FFM,FLEL,LNL,NIH
+
+;
+; EDDB SALH - Saale High
+;
+	Sector SALH
+	Type ACC
+	Frequency 133.860
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3413
+	Centre	N510913 E0113315
+	ScanCentre N5229.0 E01233.7
+	Range	160
+	TList	N520904 E0131009 On
+	HList	N520417 E0131856 Off
+	OBay	N521147 E0120242 On
+	ABay	N521030 E0123626 On
+	Status	N521519 E0092831 On
+	CallRadius1 N5116.6 E01133.2 48 295 365
+	CallRadius2 N505535 E0105027 31 295 375
+	CallRadius3 N502634 E0121817 25 295 375
+	CallRadius4 N512932 E0122436 28 295 375
+	CallRadius5 N505634 E0115203 12 295 375
+	RadarSeparation 5
+	Filter 295,375
+	Aerodromes NONE
+	Secondary SALT
+	HoldFixes NONE
+	Adjacent ERL1,FUL,SPE,HVL,SOL
+;
+; EDDB SALT - Saale Top Upper
+;
+	Sector SALT
+	Type ACC
+	Frequency 122.635
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3414
+	Centre	N510913 E0113315
+	ScanCentre N5229.0 E01233.7
+	Range	160
+	TList	N520904 E0131009 On
+	HList	N520417 E0131856 Off
+	OBay	N521147 E0120242 On
+	ABay	N521030 E0123626 On
+	Status	N521519 E0092831 On
+	CallRadius1 N511720 E0110922 43 350 690
+	CallRadius2 N510335 E0112902 48 350 690
+	CallRadius3 N512155 E0120103 45 350 690
+	CallRadius4 N502634 E0121817 25 350 690
+	RadarSeparation 5
+	Filter 335,690
+	Aerodromes NONE
+	Secondary SALH
+	HoldFixes NONE
+	Adjacent ERL2,FUL,SPE,HVL,SOLH
+;
+; EDDB SASH - Sachsen
+;
+	Sector SASH
+	Type TCC
+	Frequency 131.055
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3321
+	Centre	N512029 E0133737
+	ScanCentre	N512029 E0133737
+	Range	170
+	TList	N522223 E0152321 On
+	HList	N521725 E0153416 Off
+	OBay	N522623 E0141154 On
+	ABay	N522432 E0144740 On
+	Status	N523300 E0112721 On
+	CallRadius1 N504318 E0124936 25 165 345
+	CallRadius2 N510358 E0132702 36 165 345
+	CallRadius3 N512652 E0132408 30 265 325
+	CallRadius4 N511717 E0142432 32 165 345
+	CallRadius5 N514559 E0142215 32 265 325
+	RadarSeparation 5
+	Filter 165,345
+	Aerodromes EDDC,EDDP
+	HoldFixes NONE
+	Adjacent TRGH,FLG
+;
+; EDDB SASL - Muenchen SACHSEN LOW
+;
+	Sector SASL
+	Type APP
+	Frequency 125.625
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GAPP
+	Help 3322
+	Centre	N510317 E0133642
+	ScanCentre N5054.9 E01158.6
+	Range	150
+	TList	N515752 E0150929 On
+	HList	N520636 E0120829 On
+	OBay	N520113 E0140636 On
+	ABay	N515936 E0143803 On
+	Status	N520735 E0114311 On
+	CallRadius1 N511840 E0143215 30 13 225
+	CallRadius2 N510234 E0132450 32 13 225
+	CallRadius3 N504318 E0124936 25 13 225
+	CallRadius4 N511107 E0135338 32 13 225
+	RadarSeparation 3
+	Filter 8,225
+	Aerodromes EDDC
+	Secondary SASH
+	HoldFixes ABKIS,GARKI,RIVSA,OSKAN,HDO
+	Adjacent TRGL,FRKL,DBAS,FLG
+;
+
+;
+; EDUU SLN - Soellingen
+;
+	Sector SLN
+	Type ACC
+	Frequency 120.930
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3415
+	Centre	N484945 E0084214
+	ScanCentre N4927.7 E00849.2
+	Range	210
+	TList	N501114 E0103920 On
+	HList	N500219 E0104829 Off
+	OBay	N501254 E0091449 On
+	ABay	N501213 E0095705 On
+	Status	N501234 E0060049 On
+	CallRadius1 N493302 E0083847 30 215 365
+	CallRadius2 N4903.8 E00826.9 35 215 365
+	CallRadius3 N482248 E0081248 32 215 365
+	CallRadius4 N480502 E0081236 28 215 365
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	Secondary SLNH
+	HoldFixes NONE
+	Adjacent FFM,TGO,NTM,WUR
+;
+; EDUU SLNH - Soellingen Hi
+;
+	Sector SLNH
+	Type ACC
+	Frequency 124.035
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3416
+	Centre	N484945 E0084214
+	ScanCentre N4927.7 E00849.2
+	Range	210
+	TList	N501114 E0103920 On
+	HList	N500219 E0104829 Off
+	OBay	N501254 E0091449 On
+	ABay	N501213 E0095705 On
+	Status	N501234 E0060049 On
+	CallRadius1 N493302 E0083847 30 305 690
+	CallRadius2 N4903.8 E00826.9 35 305 690
+	CallRadius3 N482248 E0081248 32 305 690
+	CallRadius4 N480502 E0081236 28 305 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	Secondary SLN
+	HoldFixes NONE
+	Adjacent FFM,TGO,NTM,WUR
+;
+; EDUU SOL - Solling
+;
+	Sector SOL
+	Type ACC
+	Frequency 134.710
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3507
+	Centre	N514517 E0095207
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N524241 E0112146 On
+	HList	N523806 E0113005 Off
+	OBay	N524420 E0101741 On
+	ABay	N524335 E0104944 On
+	Status	N524547 E0075144 On
+	CallRadius1 N5200.0 E01031.4 35 215 345
+	CallRadius2 N513312 E0094403 40 215 345
+	CallRadius3 N513021 E0090639 40 215 345
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	Secondary SOLH
+	HoldFixes NONE
+	Adjacent FUL,SALH,HVL,FFM,MNS,CEL
+;
+; EDUU SOLH - Solling High
+;
+	Sector SOLH
+	Type ACC
+	Frequency 131.380
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Help 3508
+	Centre	N514517 E0095207
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N524241 E0112146 On
+	HList	N523806 E0113005 Off
+	OBay	N524413 E0101741 On
+	ABay	N524335 E0104944 On
+	Status	N524547 E0075144 On
+	CallRadius1 N5200.0 E01031.4 35 315 690
+	CallRadius2 N512007 E0090344 26 315 690
+	CallRadius3 N514353 E0095808 35 315 690
+	CallRadius4 N513913 E0085854 28 315 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	Secondary SOL
+	HoldFixes NONE
+	Adjacent FUL,SALH,HVL,FFM,MNS,CEL
+;
+; EDDB SPE - Spree
+;
+	Sector SPE
+	Type ACC
+	Frequency 133.285
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3417
+	Centre	N511325 E0134228
+	ScanCentre N5229.0 E01233.7
+	Range	200
+	TList	N522607 E0154742 On
+	HList	N521959 E0155926 Off
+	OBay	N523112 E0142303 On
+	ABay	N522847 E0150525 On
+	Status	N523835 E0110933 On
+	CallRadius1 N510907 E0132105 40 295 690
+	CallRadius2 N515857 E0142921 20 295 690
+	CallRadius3 N512519 E0140509 45 295 690
+	CallRadius4 N504231 E0124237 25 295 690
+	RadarSeparation 5
+	Filter 295,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent ERL1,SALH,HVL
+;
+; EDMM STA
+;
+	Sector STA
+	Type TCC
+	Frequency 132.450
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3312
+	Centre	N472351 E0113453
+	ScanCentre	N472351 E0113453
+	Range	160
+	TList	N480517 E0130210 On
+	HList	N480806 E0115447 Off
+	OBay	N480755 E0115953 On
+	ABay	N480641 E0123055 On
+	Status	N481147 E0093850 On
+	CallRadius1 N465515 E0110305 15 135 345
+	CallRadius2 N470827 E0111345 20 135 345
+	CallRadius3 N473813 E0111624 20 18 345
+	CallRadius4 N480005 e0112356 12 165 345
+	RadarSeparation 5
+	Filter 0,340
+	Aerodromes EDDM,EDMM
+	Holdfixes NONE
+	Secondary ZUG,FUE
+	Adjacent ZUG,TEG,DMSH
+
+
+;
+; EDMM TEG
+;
+	Sector TEG
+	Type TCC
+	Frequency 133.675
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GACC
+	Help 3305
+	Centre	N474249 E0121350
+	ScanCentre	N474249 E0121350
+	Range	170
+	TList	N482528 E0140048 On
+	HList	N482547 E0135649 Off
+	OBay	N474304 E0135845 On
+	ABay	N480917 E0140135 On
+	Status	N483422 E0101017 On
+	CallRadius1 N474552 E0113851 15 8 365
+	CallRadius2 N481121 E0122722 15 165 345
+	CallRadius3 N481404 E0120828 19 135 345
+	CallRadius4 N474631 E0122821 17 121 345
+	CallRadius5 N471458 E0114112 20 135 345
+	CallRadius6 N473143 E0115050 16 135 345
+	RadarSeparation 5
+	Filter 0,365
+	Aerodromes EDDM
+	Adjacent DMSH,NDG,EGG,INN
+;
+; EDUU TGO - Tango
+;
+	Sector TGO
+	Type ACC
+	Frequency 132.405
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3418
+	Centre	N483723 E0092722
+	ScanCentre N4927.7 E00849.2
+	Range	170
+	TList	N494248 E0110150 On
+	HList	N493603 E0110934 Off
+	OBay	N494425 E0095341 On
+	ABay	N494341 E0102746 On
+	Status	N494533 E0071857 On
+	CallRadius1 N485456 E0092551 32 205 365
+	CallRadius2 N482454 E0091122 25 205 339
+	CallRadius3 N480701 E0090706 28 205 339
+	CallRadius4 N493044 E0091548 10 205 365
+	RadarSeparation 5
+	Filter 205,365
+	Aerodromes NONE
+	Secondary TGOH
+	HoldFixes NONE
+	Adjacent FFM,SLN,WUR,ISA,ALPU
+;
+; EDDU TGO Hi - Tango Hi
+;
+	Sector TGOH
+	Type ACC
+	Frequency 133.280
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3419
+	Centre	N483723 E0092722
+	ScanCentre N4927.7 E00849.2
+	Range	170
+	TList	N494248 E0110150 On
+	HList	N493603 E0110934 Off
+	OBay	N494417 E0095341 On
+	ABay	N494341 E0102746 On
+	Status	N494533 E0071857 On
+	CallRadius1 N485456 E0092551 32 305 690
+	CallRadius2 N482454 E0091122 25 305 690
+	CallRadius3 N480701 E0090706 28 305 690
+	CallRadius4 N493044 E0091548 10 305 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	Secondary TGO
+	HoldFixes NONE
+	Adjacent FFM,SLN,WUR,ISA,ALPU
+;
+; EDDB TRGH - Thueringen
+;
+	Sector TRGH
+	Type TCC
+	Frequency 118.235
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3323
+	Centre	N510755 E0113619
+	ScanCentre N5054.9 E01158.6
+	Range	140
+	TList	N520013 E0130052 On
+	HList	N515628 E0130857 Off
+	OBay	N520234 E0120152 On
+	ABay	N520127 E0123128 On
+	Status	N520601 E0094747 On
+	CallRadius1 N510710 E0111129 45 165 331
+	CallRadius2 N504227 E0114206 30 165 331
+	CallRadius3 N5129.3 E01212.4 32 165 331
+	CallRadius4 N5137.2 E01115.9 22 165 331
+	CallRadius5 N502508 E0122053 21 165 331
+	RadarSeparation 5
+	Filter 165,345
+	Aerodromes EDDE,EDDP,EDPP
+	HoldFixes NONE
+	Adjacent SASH,FLG,BOR,HRZ,HEF,FRKH
+;
+; EDDB TRGL - Leipzig
+;
+	Sector TRGL
+	Type APP
+	Frequency 126.175
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GAPP
+	Help 3324
+	Centre	N511200 E0114020
+	ScanCentre N5054.9 E01158.6
+	Range	160
+	TList	N521153 E0131718 On
+	HList	N521759 E0100235 On
+	OBay	N521433 E0120947 On
+	ABay	N521314 E0124333 On
+	Status	N521828 E0093527 On
+	CallRadius1 N511808 E0114706 48 15 225
+	CallRadius2 N5124.3 E01251.2 28 15 225
+	CallRadius3 N5058.2 E01103.7 45 15 225
+	CallRadius4 N503233 E0114726 20 105 225
+	RadarSeparation 3
+	Filter 0,225
+	Aerodromes EDDE,EDDP,EDPP
+	Secondary TRGH
+	HoldFixes GOT,KOSUL,LUTER,NERID,SULED
+	Adjacent SASL,FRKL,HEF,HRZ,DBAS,BOR
+;
+; EDDU WUR
+;
+	Sector WUR
+	Type ACC
+	Frequency 134.085
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3420
+	Centre	N493709 E0100732
+	ScanCentre N4927.7 E00849.2
+	Range	140
+	TList	N503031 E0112733 On
+	HList	N502510 E0113410 Off
+	OBay	N503207 E0103031 On
+	ABay	N503123 E0105902 On
+	Status	N503403 E0082029 On
+	CallRadius1 N495528 E0095150 33 235 325
+	CallRadius2 N492737 E0103312 25 235 345
+	CallRadius3 N491138 E0100830 22 235 345
+	CallRadius4 N493547 E0093024 24 235 325
+	RadarSeparation 5
+	Filter 215,335
+	Aerodromes NONE
+	HoldFixes NONE
+	Secondary WURH
+	Adjacent FFM,FUL,ERL1,DONU,ISA,TGO,SLN
+;
+; EDDU WUR Hi
+;
+	Sector WURH
+	Type ACC
+	Frequency 133.835
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3421
+	Centre	N493709 E0100732
+	ScanCentre N4927.7 E00849.2
+	Range	140
+	TList	N503031 E0112733 On
+	HList	N502510 E0113410 Off
+	OBay	N503207 E0103031 On
+	ABay	N503123 E0105902 On
+	Status	N503403 E0082029 On
+	CallRadius1 N495528 E0095150 33 285 385
+	CallRadius2 N492920 E0101542 35 285 385
+	CallRadius3 N485710 E0100558 12 285 385
+	CallRadius4 N492716 E0092243 15 285 385
+	RadarSeparation 5
+	Filter 285,385
+	Aerodromes NONE
+	HoldFixes NONE
+	Secondary WUR
+	Adjacent FFM,FUL,ERL1,DONU,ISA,TGO,SLN
+;
+; EDDU WUR Top Upper
+;
+	Sector WURT
+	Type ACC
+	Frequency 134.065
+	Callsign Rhein
+	Transfer T_Rhein
+	Preferences GACC
+	Help 3422
+	Centre	N493709 E0100732
+	ScanCentre N4927.7 E00849.2
+	Range	140
+	TList	N503031 E0112733 On
+	HList	N502510 E0113410 Off
+	OBay	N503207 E0103031 On
+	ABay	N503123 E0105902 On
+	Status	N503403 E0082029 On
+	CallRadius1 N495528 E0095150 33 325 690
+	CallRadius2 N492920 E0101542 35 325 690
+	CallRadius3 N485710 E0100558 12 325 690
+	CallRadius4 N492716 E0092243 15 325 690
+	RadarSeparation 5
+	Filter 325,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent FFM,FUL,ERL1,DONU,ISA,TGO,SLN
+;
+; EDMM ZUG
+;
+	Sector ZUG
+	Type TCC
+	Frequency 134.150
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GTCC
+	Help 3314
+	Centre	N471159 E0102835
+	ScanCentre N471159 E0102835
+	Range	120
+	TList	N474343 E0112618 On
+	HList	N474335 E0113919 Off
+	OBay	N474310 E0114413 On
+	ABay	N472627 E0114249 On
+	Status	N474717 E0090144 On
+	CallRadius1 N472330 E0100337 18 18 345
+	CallRadius2 N471014 E0103942 25 135 345
+	CallRadius3 N465700 E0104238 18 135 345
+	CallRadius4 N472548 E0104923 19 135 345
+	CallRadius5 N473024 E0102036 9 12 345
+	RadarSeparation 5
+	Filter 0,305
+	Aerodromes EDDM
+	HoldFixes NONE
+	Secondary STA,FUE
+	Adjacent STA,FUE
+;
+; Tower Sectors
+;
+;
+; EDDB Twr North - Berlin Brandenburg
+;
+	Sector DBTWRN
+	Type TOWER
+	Frequency 120.025
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N522243 E0133114 7 0 45
+; EDDB Twr South - Berlin Brandenburg
+	Sector DBTWRS
+	Type TOWER
+	Frequency 118.8
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N522243 E0133114 7 0 45
+;
+; EDDC Twr - Dresden
+;
+	Sector DCTWR
+	Type TOWER
+	Frequency 122.925
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5107.93 E01346.03 7 0 45
+;
+; EDDE Twr - Erfurt
+;
+	Sector DETWR
+	Type TOWER
+	Frequency 121.150
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5058.79 E01057.49 7 10 55
+;
+; EDDF Twr - Frankfurt CENTER
+;
+	Sector DFTWRC
+	Type TOWER
+	Frequency 118.775
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5002.00 E00834.23 12 0 55
+;
+; EDDF Twr - Frankfurt NORTH
+;
+	Sector DFTWRN
+	Type TOWER
+	Frequency 136.5
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5002.00 E00834.23 12 0 55
+;
+; EDDF Twr - Frankfurt SOUTH
+;
+	Sector DFTWRS
+	Type TOWER
+	Frequency 119.9
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5002.00 E00834.23 12 0 55
+;
+; EDDF Twr - Frankfurt RWY18
+;
+	Sector FFTWR
+	Type TOWER
+	Frequency 124.850
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5002.00 E00834.23 7 0 55
+;
+; EDDG Twr - Muenster
+;
+	Sector DGTWR
+	Type TOWER
+	Frequency 129.800
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5208.08 E00741.09 7 0 45
+;
+; EDDH Twr - Hamburg
+;
+	Sector DHTWR
+	Type TOWER
+	Frequency 126.850
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5337.82 E00959.29 7 0 55
+;
+; EDDL Twr - Dusseldorf
+;
+	Sector DLTWR
+	Type TOWER
+	Frequency 118.5
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5116.86 E00645.44 7 0 55
+;
+; EDDK Twr - Koeln
+;
+	Sector DKTWR
+	Type TOWER
+	Frequency 124.975
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N505195 E0070856 7 0 55
+;
+;
+;
+; EDDM Twr North - Munich
+;
+	Sector DMTWRN
+	Type TOWER
+	Frequency 118.7
+	Callsign Tower
+	Transfer Tower
+	Aerodromes EDDM,EDMM
+	CallRadius1 N4821.23 E01147.17 11 0 55
+;
+;
+;
+; EDDM Twr South
+;
+	Sector DMTWRS
+	Type TOWER
+	Frequency 120.5
+	Callsign Tower
+	Transfer Tower
+	Aerodromes EDDM,EDMM
+	CallRadius1 N4821.23 E01147.17 11 0 55
+;
+; EDDN Twr - Nuremberg
+;
+	Sector DNTWR
+	Type TOWER
+	Frequency 118.3
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4929.92 E01104.69 7 10 55
+;
+; EDDP Twr - Leipzig/Halle
+;
+	Sector DPTWRN
+	Type TOWER
+	Frequency 125.950
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N512604 E0121333 7 10 55
+;
+; EDPP Twr - Leipzig/Halle
+;
+	Sector DPTWRS
+	Type TOWER
+	Frequency 121.1
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N512454 E0121349 7 10 55
+;
+; EDDR Twr - Saarbruecken
+;
+	Sector DRTWR
+	Type TOWER
+	Frequency 118.350
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4912.87 E00706.57 7 10 55
+;
+; EDDS Twr - Stuttgart
+;
+	Sector DSTWR
+	Type TOWER
+	Frequency 118.8
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4841.39 E00913.32 7 0 55
+;
+; EDDT Twr - Berlin/Tegel
+;
+	Sector DTTWR
+	Type TOWER
+	Frequency 124.525
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N523335 E0131716 7 0 45
+;
+; EDDV Twr - Hannover
+;
+	Sector DVTWR
+	Type TOWER
+	Frequency 120.175
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5227.61 E00941.01 7 0 55
+;
+; EDDW Twr - Bremen
+;
+	Sector DWTWR
+	Type TOWER
+	Frequency 118.5
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5302.84 E00847.20 7 0 55
+;
+; EDAC Twr - Leipzig/Altenburg
+;
+	Sector ACTWR
+	Type TOWER
+	Frequency 123.575
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N505855 E0123023 7 0 45
+;
+; EDAB Twr - Bautzen
+;
+	Sector ABTWR
+	Type TOWER
+	Frequency 120.6
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N511137 E0143111 7 0 45
+;
+; EDCD Twr - Cottbus
+;
+	Sector CDTWR
+	Type TOWER
+	Frequency 118.125
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N515322 E0143155 7 0 45
+;
+; EDFH Twr - Frankfurt/Hahn
+;
+	Sector FHTWR
+	Type TOWER
+	Frequency 119.650
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4956.92 E00715.83 7 0 65
+;
+; EDFM Twr - Mannheim
+;
+	Sector FMTWR
+	Type TOWER
+	Frequency 129.775
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N492822 E0083052 7 0 45
+;
+; EDFQ Twr - Allendorf
+;
+	Sector FQTWR
+	Type TOWER
+	Frequency 118.175
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N510207 E0084051 7 0 35
+;
+; EDGS Twr - Siegerland
+;
+	Sector GSTWR
+	Type TOWER
+	Frequency 120.375
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N504228 E0080459 7 0 65
+;
+; EDHE Twr - Uetersen
+;
+	Sector HETWR
+	Type TOWER
+	Frequency 122.7
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5338.82 E00942.25 7 0 45
+;
+; EDHI Twr - Hamburg/Finkenwerder
+;
+	Sector HITWR
+	Type TOWER
+	Frequency 123.250
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N533207 E0095008 7 0 45
+;
+; EDHK Twr - Kiel
+;
+	Sector HKTWR
+	Type TOWER
+	Frequency 119.975
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N542239 E0100712 7 0 45
+;
+; EDHL Twr - Luebeck
+;
+	Sector HLTWR
+	Type TOWER
+	Frequency 128.7
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5348.32 E01043.15 7 0 45
+;
+; EDJA Twr - Memmingen
+;
+	Sector JATWR
+	Type TOWER
+	Frequency 126.850
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N475920 E0101422 7 0 75
+;
+; EDLN Twr - Moenchengladbach
+;
+	Sector LNTWR
+	Type TOWER
+	Frequency 118.125
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N511349 E0063016 7 0 55
+;
+; EDLP Twr - Paderborn/Lippstadt
+;
+	Sector LPTWR
+	Type TOWER
+	Frequency 133.375
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N513685 E0083698 7 0 55
+;
+; EDLV Twr - Niederrhein
+;
+	Sector LVTWR
+	Type TOWER
+	Frequency 129.4
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N513609 E0060832 7 0 55
+;
+; EDLW Twr - Dortmund/Wickede
+;
+	Sector LWTWR
+	Type TOWER
+	Frequency 134.175
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N513110 E0073673 7 0 55
+;
+; EDMA Twr - Augsburg
+;
+	Sector MATWR
+	Type TOWER
+	Frequency 124.975
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4825.51 E01055.91 7 0 55
+;
+; EDMO Twr - Oberpfaffenhofen
+;
+	Sector MOTWR
+	Type TOWER
+	Frequency 119.550
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N480453 E0111659 7 0 55
+;
+; EDMS Twr - Straubing
+;
+	Sector MSTWR
+	Type TOWER
+	Frequency 127.150
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N485403 E0123105 7 0 55
+;
+; EDNY Twr - Friedrichshafen
+;
+	Sector NYTWR
+	Type TOWER
+	Frequency 120.075
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4740.28 E00930.69 7 0 55
+;
+; EDOP Twr - Schwerin Parchim
+;
+	Sector OPTWR
+	Type TOWER
+	Frequency 128.9
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5325.62 E01147.01 7 0 45
+;
+; EDQC Twr - Coburg
+;
+	Sector QCTWR
+	Type TOWER
+	Frequency 128.675
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N501548 E0105942 7 0 45
+;
+; EDQM Twr - Hof
+;
+	Sector QMTWR
+	Type TOWER
+	Frequency 124.350
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N501720 E0115118 7 0 55
+;
+; EDRZ Twr - Zweibruecken
+;
+	Sector RZTWR
+	Type TOWER
+	Frequency 123.825
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4912.57 E00724.07 7 0 45
+;
+; EDTM Twr - Mengen/Hohentengen
+;
+	Sector TMTWR
+	Type TOWER
+	Frequency 135.175
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N480314 E0092222 7 0 75
+;
+; EDTY Twr - Schwaebisch Hall
+;
+	Sector TYTWR
+	Type TOWER
+	Frequency 129.225
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N4907.09 E00946.65 7 0 55
+;
+; EDVE Twr - Braunschweig
+;
+	Sector VETWR
+	Type TOWER
+	Frequency 119.350
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N521909 E0103322 7 0 45
+;
+; EDVK Twr - Kassel/Calden
+;
+	Sector VKTWR
+	Type TOWER
+	Frequency 118.0
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N512430 E0092239 7 0 45
+;
+; EDWN Twr - Nordhorn
+;
+	Sector WNTWR
+	Type TOWER
+	Frequency 122.650
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5227.46 E00711.10 7 0 45
+;
+; EDXW Twr - Westerland
+;
+	Sector XWTWR
+	Type TOWER
+	Frequency 119.750
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5454.70 E00820.54 7 0 45
+;
+; ETAD Twr - Spangdahlem
+;
+	Sector ADTWR
+	Type TOWER
+	Frequency 122.2
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N495822 E0064133 7 0 55
+;
+; ETAR Twr - Ramstein
+;
+	Sector ARTWR
+	Type TOWER
+	Frequency 133.2
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N492613 E0073600 7 0 55
+;
+; ETNL Twr - Rostock Laage
+;
+	Sector NLTWR
+	Type TOWER
+	Frequency 118.425
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5355.09 E01216.70 7 0 45
+;
+; ETNU Twr - Neubrandenburg
+;
+	Sector NUTWR
+	Type TOWER
+	Frequency 119.175
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5336.13 E01318.36 7 0 45
+;
+; ETNW Twr - Wunstorf
+;
+	Sector NWTWR
+	Type TOWER
+	Frequency 122.1
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N522744 E0092563 7 0 45
+;
+; ETSA Twr - Landsberg
+;
+	Sector SATWR
+	Type TOWER
+	Frequency 122.1
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N480423 E0105436 7 0 55
+;
+; ETSE Twr - Erding
+;
+	Sector SETWR
+	Type TOWER
+	Frequency 120.2
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N481934 E0115692 7 0 55
+;
+; LSZH Twr - Zurich
+;
+	Sector ZHTWR
+	Type TOWER
+	Frequency 118.100
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N472753 E0083257 7 0 70
+;
+; LSZR Twr - St. Gallen/Altenrhein
+;
+	Sector ZRTWR
+	Type TOWER
+	Frequency 118.65
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N472906 E0093343 7 0 70
+;
+; Externals
+;
+;
+; BKAPP - Beek APP
+;
+	Sector BKAPP
+	Type EXTERNAL
+	Frequency 123.975
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GAPP
+	Centre	N505457	E0054637
+	ScanCentre N505457 E0054637
+	Range	80
+	TList	N551220 E0150409 On
+	HList	N550653 E0151555 Off
+	OBay	N551439 E0142117 On
+	ABay	N540014 E0125510 On
+	Status	N552301 E0102216 On
+	CallRadius1 N505457 E0054637 20 8 85
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes EHBK
+;
+; NGRAD - Geilenkirchen Radar
+;
+	Sector NGRAD
+	Type EXTERNAL
+	Frequency 123.725
+	Callsign Frisbee
+	Transfer T_Frisbee
+	Preferences GAPP
+	Centre	N505739	E0060233
+	ScanCentre N505739 E0060233
+	Range	190
+	TList	N551220 E0150409 On
+	HList	N550653 E0151555 Off
+	OBay	N551439 E0142117 On
+	ABay	N540014 E0125510 On
+	Status	N552301 E0102216 On
+	CallRadius1 N505739 E0060233 15 8 55
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes ETNG
+;
+; NLRAD - Laage Radar
+;
+	Sector NLRAD
+	Type EXTERNAL
+	Frequency 133.625
+	Callsign Bremen
+	Transfer T_Bremen
+	Preferences GAPP
+	Centre	N540256 E0125817
+	ScanCentre N5306.1 E01052.4
+	Range	190
+	TList	N551220 E0150409 On
+	HList	N550653 E0151555 Off
+	OBay	N551439 E0142117 On
+	ABay	N540014 E0125510 On
+	Status	N552301 E0102216 On
+	CallRadius1 N5355.09 E01216.70 25 8 75
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes ETNL
+	HoldFixes BADOB,LAGIP,BADSU,TETKO
+;
+; NURAD - Neubrandenburg Radar
+;
+	Sector NURAD
+	Type EXTERNAL
+	Frequency 123.3
+	Callsign Bremen
+	Transfer T_Bremen
+	Preferences GAPP
+	Centre	N540256 E0125817
+	ScanCentre N5306.1 E01052.4
+	Range	190
+	TList	N551220 E0150409 On
+	HList	N550653 E0151555 Off
+	OBay	N551439 E0142117 On
+	ABay	N540014 E0125510 On
+	Status	N552301 E0102216 On
+	CallRadius1 N5336.13 E01318.36 25 8 75
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes ETNU
+	HoldFixes NRG
+;
+; SIRAD - Ingo Radar
+;
+	Sector SIRAD
+	Type EXTERNAL
+	Frequency 120.6
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GAPP
+	Centre	N490536 E0112622
+	ScanCentre N483413 E0113551
+	Range	120
+	TList	N495050 E0123515 On
+	HList	N494656 E0124049 Off
+	OBay	N491407 E0123510 On
+	ABay	N492600 E0123622 On
+	Status	N495511 E0095717 On
+	ScaleMarker	N482400	E0100000
+	CallRadius1 N485611 E0113512 22 15 105
+	CallRadius2 N484723 E0115108 15 15 105
+	RadarSeparation 5
+	Filter 0,125
+	Aerodromes ETSI
+	Adjacent ALB,DMNL,IGL,RDG,EGG
+;
+; EDUU LNO - Olno Low
+;
+	Sector LNL
+	Type EXTERNAL
+	Frequency 132.855
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N503612 E0060136
+	ScanCentre N5246.3 E00847.3
+	Range	110
+	TList	N511657 E0064826 On
+	HList	N511704 E0070841 On
+	OBay	N503520 E0060047 Off
+	ABay	N503421 E0060018 Off
+	Status	N511505 E0043225 On
+	CallRadius1 N504136 E0064630 22 215 365
+	CallRadius2 N500813 E0063336 10 215 365
+	CallRadius3 N5039.0 E00550.9 38 215 365
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent NTM,RHR,FLEL
+;
+; EDUU LNO - Olno High
+;
+	Sector LNH
+	Type EXTERNAL
+	Frequency 125.980
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N503612 E0060136
+	ScanCentre N5246.3 E00847.3
+	Range	110
+	TList	N511657 E0064826 On
+	HList	N511704 E0070841 On
+	OBay	N503520 E0060047 Off
+	ABay	N503421 E0060018 Off
+	Status	N511505 E0043225 On
+	CallRadius1 N504136 E0064630 22 305 690
+	CallRadius2 N500813 E0063336 10 305 690
+	CallRadius3 N5039.0 E00550.9 38 305 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent NTM,RHR,FLEL
+;
+; EDUU NIL - Nicky Low
+;
+	Sector NIL
+	Type EXTERNAL
+	Frequency 120.915
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N504616 E0045742
+	ScanCentre N5246.3 E00847.3
+	Range	120
+	TList	N513106 E0054800 On
+	HList	N513123 E0061007 On
+	OBay	N504519 E0045643 Off
+	ABay	N504410 E0045612 Off
+	Status	N512743 E0031900 On
+	CallRadius1 N511237 E0055424 18 215 365
+	CallRadius2 N5111.7 E00459.9 25 215 365
+	CallRadius3 N503848 E0042424 40 215 365
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent RHR,LNL,FLEL
+;
+; EDUU NIH - Nicky High
+;
+	Sector NIH
+	Type EXTERNAL
+	Frequency 132.755
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N504616 E0045742
+	ScanCentre N5246.3 E00847.3
+	Range	120
+	TList	N513106 E0054800 On
+	HList	N513123 E0061007 On
+	OBay	N504519 E0045643 Off
+	ABay	N504410 E0045612 Off
+	Status	N512743 E0031900 On
+	CallRadius1 N511237 E0055424 18 305 690
+	CallRadius2 N5111.7 E00459.9 25 305 690
+	CallRadius3 N503848 E0042424 40 305 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent RHRH,FLEH,LNH
+;
+; EDYY - LXL
+;
+	Sector LXL
+	Type EXTERNAL
+	Frequency 133.355
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N493947 E0054016
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N504011 E0070058 On
+	HList	N503407 E0070803 Off
+	OBay	N503958 E0062956 On
+	ABay	N493717 E0053844 Off
+	Status	N503608 E0034019 On
+	CallRadius1 N4906.8 E00626.3 21 215 365
+	CallRadius2 N495527 E0062057 22 215 365
+	CallRadius3 N493404 E0060315 22 215 365
+	CallRadius4 N500325 E0051207 32 215 365
+	RadarSeparation 5
+	Filter 215,365
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent NTM
+;
+; EDYY - LXH
+;
+	Sector LXH
+	Type EXTERNAL
+	Frequency 121.630
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N493947 E0054016
+	ScanCentre N5246.3 E00847.3
+	Range	150
+	TList	N504011 E0070058 On
+	HList	N503407 E0070803 Off
+	OBay	N503958 E0062956 On
+	ABay	N493717 E0053844 Off
+	Status	N503608 E0034019 On
+	CallRadius1 N4906.8 E00626.3 21 305 690
+	CallRadius2 N495527 E0062057 22 305 690
+	CallRadius3 N493404 E0060315 22 305 690
+	CallRadius4 N500325 E0051207 32 305 690
+	RadarSeparation 5
+	Filter 305,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent NTM
+;
+; EDUU CST - Coastal
+;
+	Sector CST
+	Type EXTERNAL
+	Frequency 134.465
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N534626 E0084108
+	ScanCentre N5246.3 E00847.3
+	Range	240
+	TList	N551830 E0111021 On
+	HList	N551202 E0112631 Off
+	OBay	N534055 E0111012 On
+	ABay	N534147 E0083616 Off
+	Status	N551930 E0051452 On
+	CallRadius1 N541108 E0075439 70 215 690
+	CallRadius2 N543020 E0104110 20 215 690
+	CallRadius3 N541909 E0095213 29 215 690
+	CallRadius4 N5338.0 E00800.3 60 215 690
+	RadarSeparation 5
+	Filter 215,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent MNS,CEL
+;
+; EDUU FLEL - Flevo Low
+;
+	Sector FLEL
+	Type EXTERNAL
+	Frequency 132.635
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N520323 E0055429
+	ScanCentre N5246.3 E00847.3
+	Range	160
+	TList	N530355 E0071544 On
+	HList	N530319 E0073528 Off
+	OBay	N530348 E0065104 On
+	ABay	N520012 E0055134 Off
+	Status	N530010 E0033927 On
+	CallRadius1 N512556 E0054807 25 215 375
+	CallRadius2 N5209.3 E00520.2 40 215 375
+	CallRadius3 N513541 E0044538 25 215 375
+	CallRadius4 N524124 E0062556 25 215 375
+	RadarSeparation 5
+	Filter 215,375
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent MNS,RHR,LNOL
+;
+; EDUU FLEH - Flevo High
+;
+	Sector FLEH
+	Type EXTERNAL
+	Frequency 120.915
+	Callsign Maastricht
+	Transfer T_Maastricht
+	Preferences GACC
+	Centre	N520323 E0055429
+	ScanCentre N5246.3 E00847.3
+	Range	160
+	TList	N530355 E0071544 On
+	HList	N530319 E0073528 Off
+	OBay	N530348 E0065104 On
+	ABay	N520012 E0055134 Off
+	Status	N530010 E0033927 On
+	CallRadius1 N512556 E0054807 25 315 690
+	CallRadius2 N5209.3 E00520.2 40 315 690
+	CallRadius3 N513541 E0044538 25 315 690
+	CallRadius4 N524124 E0062556 25 315 690
+	RadarSeparation 5
+	Filter 315,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent MNS,RHR,LNOH
+;
+; EHGG - TA
+;
+	Sector EHGG
+	Type EXTERNAL
+	Frequency 120.3
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GACC
+	Centre	N530349 E0061925
+	ScanCentre	N530349 E0061925
+	Range	110
+	TList	N534449 E0070848 On
+	HList	N534447 E0072950 On
+	OBay	N530246 E0061744 Off
+	ABay	N530150 E0061737 Off
+	Status	N534220 E0044529 On
+	CallRadius1 N5309.8 E00640.0 32 5 95
+	RadarSeparation 3
+	Filter 5,95
+	Adjacent FRI,EID
+;
+; EHAA - S1
+;
+	Sector EHS1
+	Type EXTERNAL
+	Frequency 134.375
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GTCC
+	Centre	N530349 E0061925
+	ScanCentre	N530349 E0061925
+	Range	110
+	TList	N534449 E0070848 On
+	HList	N534447 E0072950 On
+	OBay	N530246 E0061744 Off
+	ABay	N530150 E0061737 Off
+	Status	N534220 E0044529 On
+	CallRadius1 N5309.8 E00640.0 28 25 275
+	CallRadius2 N524610 E0055225 27 25 275
+	CallRadius3 N5220.1 E00505.5 25 85 275
+	RadarSeparation 5
+	Filter 25,275
+	Adjacent FRI,EID
+;
+; EHAA - S2I
+;
+	Sector EH2I
+	Type EXTERNAL
+	Frequency 124.875
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GTCC
+	Centre	N522247 E0062611
+	ScanCentre	N522247 E0062611
+	Range	100
+	TList	N525953 E0071017 On
+	HList	N525951 E0072905 On
+	OBay	N522141 E0062425 Off
+	ABay	N522054 E0062419 Off
+	Status	N525751 E0050220 On
+	CallRadius1 N5212.9 E00658.6 15 35 275
+	CallRadius2 N522431 E0061817 17 35 275
+	CallRadius3 N522835 E0054352 20 35 275
+	CallRadius4 N5220.1 E00505.5 25 35 275
+	RadarSeparation 5
+	Filter 35,275
+	Adjacent HMML,HMMM,EMS
+;
+; EHAA - S2E
+;
+	Sector EH2E
+	Type EXTERNAL
+	Frequency 128.575
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GTCC
+	Centre	N522247 E0062611
+	ScanCentre	N522247 E0062611
+	Range	100
+	TList	N525953 E0071017 On
+	HList	N525951 E0072905 On
+	OBay	N522141 E0062425 Off
+	ABay	N522054 E0062419 Off
+	Status	N525751 E0050220 On
+	CallRadius1 N515914 E0064341 25 35 275
+	CallRadius2 N521317 E0054937 25 35 275
+	CallRadius3 N5220.1 E00505.5 25 85 275
+	RadarSeparation 5
+	Filter 35,275
+	Adjacent HMML,HMMM,DLD
+;
+; EHAA - EHMC TMAD
+;
+	Sector EHMD
+	Type EXTERNAL
+	Frequency 128.350
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GTCC
+	Centre	N513907 E0053547
+	ScanCentre	N513907 E0053547
+	Range	100
+	TList	N521630 E0061822 On
+	HList	N521636 E0063659 On
+	OBay	N513759 E0053356 Off
+	ABay	N513712 E0053351 Off
+	Status	N521337 E0041239 On
+	CallRadius1 N512744 E0055212 25 10 275
+	CallRadius2 N514048 E0050459 25 10 275
+	CallRadius3 N515720 E0055056 15 10 275
+	RadarSeparation 5
+	Filter 10,275
+	Adjacent EH2E,MGB
+;
+; EKDK - EK5
+;
+	Sector EK5
+	Type EXTERNAL
+	Frequency 136.485
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N550056 E0120003
+	ScanCentre	N550056 E0120003
+	Range	150
+	TList	N555332 E0131848 On
+	HList	N555202 E0134852 On
+	OBay	N545941 E0115737 Off
+	ABay	N545823 E0115714 Off
+	Status	N555849 E0095239 On
+	CallRadius1 N542741 E0114124 20 315 690
+	CallRadius2 N544233 E0110844 21 315 690
+	CallRadius3 N550247 E0121417 31 315 690
+	CallRadius4 N5515.2 E01241.0 21 315 690
+	RadarSeparation 5
+	Filter 315,690
+	Adjacent OSE,CST,CELH
+;
+; EKDK - EK6
+;
+	Sector EK6
+	Type EXTERNAL
+	Frequency 119.430
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N551035 E0102322
+	ScanCentre	N551035 E0102322
+	Range	140
+	TList	N560037 E0113506 On
+	HList	N555935 E0120317 On
+	OBay	N550924 E0102108 Off
+	ABay	N550810 E0102049 Off
+	Status	N560312 E0082204 On
+	CallRadius1 N544537 E0085902 20 315 690
+	CallRadius2 N544928 E0094502 22 315 690
+	CallRadius3 N552254 E0094602 32 315 690
+	CallRadius4 N5534.9 E01051.2 45 315 690
+	RadarSeparation 5
+	Filter 315,690
+	Adjacent CST,EK5
+;
+; EKDK - EKA
+;
+	Sector EKA
+	Type EXTERNAL
+	Frequency 135.290
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N550056 E0120003
+	ScanCentre	N550056 E0120003
+	Range	150
+	TList	N555332 E0131848 On
+	HList	N555202 E0134852 On
+	OBay	N545941 E0115737 Off
+	ABay	N545823 E0115714 Off
+	Status	N555849 E0095239 On
+	CallRadius1 N542741 E0114124 20 255 375
+	CallRadius2 N544233 E0110844 21 255 375
+	CallRadius3 N550247 E0121417 31 255 375
+	CallRadius4 N5515.2 E01241.0 21 255 375
+	RadarSeparation 5
+	Filter 255,375
+	Adjacent OSE,CST,CELH
+;
+; EKDK - EKB
+;
+	Sector EKB
+	Type EXTERNAL
+	Frequency 119.550
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N545711 E0122637
+	ScanCentre	N545711 E0122637
+	Range	140
+	TList	N554610 E0134041 On
+	HList	N554442 E0140839 On
+	OBay	N545602 E0122434 Off
+	ABay	N545449 E0122358 Off
+	Status	N555149 E0102840 On
+	CallRadius1 N542741 E0114124 20 8 315
+	CallRadius2 N544237 E0120117 22 8 315
+	CallRadius3 N544842 E0124408 21 8 315
+	CallRadius4 N5515.2 E01241.0 21 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Adjacent MRZ,HEI,EKI,ESML
+;
+; EKDK - EKC
+;
+	Sector EKC
+	Type EXTERNAL
+	Frequency 128.155
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N551035 E0102322
+	ScanCentre	N551035 E0102322
+	Range	140
+	TList	N560037 E0113506 On
+	HList	N555935 E0120317 On
+	OBay	N550924 E0102108 Off
+	ABay	N550810 E0102049 Off
+	Status	N560312 E0082204 On
+	CallRadius1 N544537 E0085902 20 255 375
+	CallRadius2 N544928 E0094502 22 255 375
+	CallRadius3 N552254 E0094602 32 255 375
+	CallRadius4 N5534.9 E01051.2 45 255 375
+	RadarSeparation 5
+	Filter 255,375
+	Adjacent CST,EK5
+;
+; EKDK - EKD
+;
+	Sector EKD
+	Type EXTERNAL
+	Frequency 133.150
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N551035 E0102322
+	ScanCentre	N551035 E0102322
+	Range	140
+	TList	N560037 E0113506 On
+	HList	N555935 E0120317 On
+	OBay	N550924 E0102108 Off
+	ABay	N550810 E0102049 Off
+	Status	N560312 E0082204 On
+	CallRadius1 N544537 E0085902 20 8 315
+	CallRadius2 N544928 E0094502 22 8 315
+	CallRadius3 N552254 E0094602 32 8 315
+	CallRadius4 N5534.9 E01039.2 45 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Adjacent EID,EKI,EK5
+;
+; EKDK - EKF
+;
+	Sector EKF
+	Type EXTERNAL
+	Frequency 124.0
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N552618 E0075648
+	ScanCentre	N552618 E0075648
+	Range	140
+	TList	N561740 E0090555 On
+	HList	N561702 E0093407 On
+	OBay	N552505 E0075424 Off
+	ABay	N552343 E0075409 Off
+	Status	N561629 E0055137 On
+	CallRadius1 N5536.2 E00818.0 30 5 115
+	CallRadius2 N550955 E0074500 20 5 115
+	CallRadius3 N5700.0 E00627.4 30 5 115
+	RadarSeparation 5
+	Filter 5,115
+	Adjacent EID,EKS,EKN,EK6
+;
+; EKDK - EKI
+;
+	Sector EKI
+	Type EXTERNAL
+	Frequency 121.375
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N551430 E0112947
+	ScanCentre	N551430 E0112947
+	Range	140
+	TList	N560354 E0124300 On
+	HList	N560238 E0131112 On
+	OBay	N551320 E0112732 Off
+	ABay	N551207 E0112710 Off
+	Status	N560808 E0092944 On
+	CallRadius1 N544852 E0110730 28 8 315
+	CallRadius2 N5512.6 E01154.1 20 8 315
+	CallRadius3 N553511 E0122341 15 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Adjacent EID,HEI,EKB,CST,EKD
+;
+; EKDK - EKN
+;
+	Sector EKN
+	Type EXTERNAL
+	Frequency 134.675
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N552618 E0075648
+	ScanCentre	N552618 E0075648
+	Range	140
+	TList	N561740 E0090555 On
+	HList	N561702 E0093407 On
+	OBay	N552505 E0075424 Off
+	ABay	N552343 E0075409 Off
+	Status	N561629 E0055137 On
+	CallRadius1 N5536.2 E00818.0 30 55 690
+	CallRadius2 N550955 E0074500 20 55 690
+	CallRadius3 N5700.0 E00627.4 30 55 690
+	RadarSeparation 5
+	Filter 55,690
+	Adjacent EID,EKS,EKF,EK6
+;
+; EKDK - EKS
+;
+	Sector EKS
+	Type EXTERNAL
+	Frequency 136.550
+	Callsign Copenhagen
+	Transfer T_Copenhagen
+	Preferences GACC
+	Centre	N552618 E0075648
+	ScanCentre	N552618 E0075648
+	Range	140
+	TList	N561740 E0090555 On
+	HList	N561702 E0093407 On
+	OBay	N552505 E0075424 Off
+	ABay	N552343 E0075409 Off
+	Status	N561629 E0055137 On
+	CallRadius1 N5536.2 E00818.0 30 8 690
+	CallRadius2 N550955 E0074500 20 8 690
+	CallRadius3 N550844 E0083756 20 8 690
+	RadarSeparation 5
+	Filter 8,690
+	Adjacent EID,EKD,EKC,EK6
+;
+; ESMS - ESML
+;
+	Sector ESML
+	Type EXTERNAL
+	Frequency 124.4
+	Callsign Malmo
+	Transfer T_Malmo
+	Preferences GACC
+	Centre	N551210 E0142052
+	ScanCentre	N551210 E0142052
+	Range	200
+	TList	N562017 E0161136 On
+	HList	N561733 E0165219 On
+	OBay	N551045 E0141754 Off
+	ABay	N550902 E0141656 Off
+	Status	N563219 E0113326 On
+	CallRadius1 N550354 E0144530 26 8 225
+	CallRadius2 N551841 E0133524 35 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Adjacent OSE,ESM9,ESM8
+;
+; ESMS - ESM8
+;
+	Sector ESM8
+	Type EXTERNAL
+	Frequency 124.150
+	Callsign Malmo
+	Transfer T_Malmo
+	Preferences GACC
+	Centre	N551210 E0142052
+	ScanCentre	N551210 E0142052
+	Range	200
+	TList	N562017 E0161136 On
+	HList	N561733 E0165219 On
+	OBay	N551045 E0141754 Off
+	ABay	N550902 E0141656 Off
+	Status	N563219 E0113326 On
+	CallRadius1 N543825 E0150020 35 215 385
+	CallRadius2 N551841 E0133524 35 255 385
+	RadarSeparation 5
+	Filter 8,385
+	Adjacent OSE,ESM9,ESML
+;
+; ESMS - ESM9
+;
+	Sector ESM9
+	Type EXTERNAL
+	Frequency 135.8
+	Callsign Malmo
+	Transfer T_Malmo
+	Preferences GACC
+	Centre	N551210 E0142052
+	ScanCentre	N551210 E0142052
+	Range	200
+	TList	N562017 E0161136 On
+	HList	N561733 E0165219 On
+	OBay	N551045 E0141754 Off
+	ABay	N550902 E0141656 Off
+	Status	N563219 E0113326 On
+	CallRadius1 N543825 E0150020 35 325 690
+	CallRadius2 N551841 E0133524 35 325 690
+	RadarSeparation 5
+	Filter 325,690
+	Adjacent OSE,ESM8,ESML
+;
+; EPWW GRU - Gruda
+;
+	Sector GRU
+	Type EXTERNAL
+	Frequency 124.925
+	Callsign Warsaw
+	Transfer T_Warsaw
+	Preferences GACC
+	Centre	N535543 E0130047
+	ScanCentre	N535543 E0130047
+	Range	200
+	TList	N550514 E0144547 On
+	HList	N550257 E0152522 On
+	OBay	N535427 E0125818 Off
+	ABay	N535243 E0125725 Off
+	Status	N551422 E0101555 On
+	CallRadius1 N543825 E0150020 35 8 285
+	CallRadius2 N534348 E0151526 45 8 690
+	RadarSeparation 5
+	Filter 8,690
+	Adjacent OSE,HVL,SPE,ESM8,ESM9
+;
+; EPWW DRE - Denko
+;
+	Sector DRE
+	Type EXTERNAL
+	Frequency 134.225
+	Callsign Warsaw
+	Transfer T_Warsaw
+	Preferences GACC
+	Centre	N535543 E0130047
+	ScanCentre	N535543 E0130047
+	Range	200
+	TList	N550514 E0144547 On
+	HList	N550257 E0152522 On
+	OBay	N535427 E0125818 Off
+	ABay	N535243 E0125725 Off
+	Status	N551422 E0101555 On
+	CallRadius1 N525306 E0145052 35 8 690
+	CallRadius2 N521754 E0151228 35 8 690
+	CallRadius3 N515415 E0151726 35 8 690
+	CallRadius4 N523558 E0164757 63 8 690
+	RadarSeparation 5
+	Filter 8,690
+	Adjacent OSE,HVL,SPE
+;
+; EPWW TRZ - Trebni
+;
+	Sector TRZ
+	Type EXTERNAL
+	Frequency 134.875
+	Callsign Warsaw
+	Transfer T_Warsaw
+	Preferences GACC
+	Centre	N535543 E0130047
+	ScanCentre	N535543 E0130047
+	Range	200
+	TList	N550514 E0144547 On
+	HList	N550257 E0152522 On
+	OBay	N535427 E0125818 Off
+	ABay	N535243 E0125725 Off
+	Status	N551422 E0101555 On
+	CallRadius1 N511209 E0152703 30 8 690
+	CallRadius2 N510148 E0170016 50 8 690
+	RadarSeparation 5
+	Filter 8,690
+	Adjacent OSE,HVL,SPE
+;
+; EBBU - EBES
+;
+	Sector EBES
+	Type EXTERNAL
+	Frequency 129.575
+	Callsign Brussels
+	Transfer T_Brussels
+	Preferences GTCC
+	Centre	N504958 E0054749
+	ScanCentre	N504958 E0054749
+	Range	120
+	TList	N513530 E0064631 On
+	HList	N513514 E0070040 Off
+	OBay	N513522 E0062837 On
+	ABay	N504811 E0054613 Off
+	Status	N513244 E0040940 On
+	CallRadius1 N502314 E0061233 18 12 275
+	CallRadius2 N505050 E0053543 28 12 275
+	CallRadius3 N511530 E0051330 12 12 275
+	RadarSeparation 5
+	Filter 15,275
+	Aerodromes EBBR
+	HoldFixes NONE
+	Adjacent EBLU,DKAW,RUD,MGB
+;
+; EBBU - EBLU
+;
+	Sector EBLU
+	Type EXTERNAL
+	Frequency 125.0
+	Callsign Brussels
+	Transfer T_Brussels
+	Preferences GTCC
+	Centre	N495225 E0055151
+	ScanCentre	N495225 E0055151
+	Range	90
+	TList	N502636 E0063501 On
+	HList	N502625 E0064514 Off
+	OBay	N502628 E0062155 On
+	ABay	N495105 E0055048 Off
+	Status	N502441 E0044011 On
+	CallRadius1 N494019 E0060649 25 12 275
+	CallRadius2 N500833 E0060125 18 12 275
+	CallRadius3 N494254 E0052411 22 12 275
+	RadarSeparation 5
+	Filter 85,275
+	Aerodromes ELLX
+	HoldFixes NONE
+	Adjacent RUD,PFA,KIR,EIF
+;
+; ELLX TA - Luxembourg Approach
+;
+	Sector ELXA
+	Type EXTERNAL
+	Frequency 118.9
+	Callsign Luxemburg
+	Transfer T_Luxemburg
+	Preferences GAPP
+	Centre	N494741 E0060338
+	ScanCentre	N494741 E0060338
+	Range	70
+	TList	N501552 E0064112 On
+	HList	N501409 E0064505 Off
+	OBay	N501548 E0062656 On
+	ABay	N494642 E0060254 Off
+	Status	N501428 E0050808 On
+	CallRadius1 N494009 E0061255 24 8 165
+	CallRadius2 N500230 E0060244 17 8 165
+	CallRadius3 N493614 E0053105 15 8 165
+	RadarSeparation 3
+	Filter 8,165
+	Aerodromes ELLX
+	HoldFixes NONE
+	Adjacent KIR,PFA,EIF
+;
+; LF - LFEE
+;
+	Sector LFEE
+	Type EXTERNAL
+	Frequency 128.3
+	Callsign REIMS
+	Transfer T_REIMS
+	Preferences GTCC
+	Centre	N484140 E0063610
+	ScanCentre	N484140 E0063610
+	Range	150
+	TList	N494106 E0075604 On
+	HList	N493706 E0080349 Off
+	OBay	N490439 E0075957 On
+	ABay	N483905 E0063438 Off
+	Status	N493854 E0043941 On
+	CallRadius1 N485044 E0074152 26 8 275
+	CallRadius2 N480645 E0071715 26 8 275
+	CallRadius3 N485158 E0060300 48 8 275
+	CallRadius4 N482606 E0074401 10 8 275
+	RadarSeparation 3
+	Filter 0,275
+	Aerodromes LFST,LFSB
+	Adjacent PFA,BAD
+;
+; LF - LFUE
+;
+	Sector LFUE
+	Type EXTERNAL
+	Frequency 127.550
+	Callsign Reims
+	Transfer T_Reims
+	Preferences GACC
+	Centre	N483933 E0063311
+	ScanCentre	N483933 E0063311
+	Range	170
+	TList	N494724 E0080415 On
+	HList	N494027 E0081159 Off
+	OBay	N494726 E0072954 On
+	ABay	N483652 E0063126 Off
+	Status	N494427 E0042050 On
+	CallRadius1 N4754.5 E00735.0 10 215 345
+	CallRadius2 N4824.0 E00641.6 51 215 345
+	CallRadius3 N492113 E0060611 14 215 345
+	RadarSeparation 5
+	Filter 215,345
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent SLN,NTM
+;
+; LF - LFKE
+;
+	Sector LFKE
+	Type EXTERNAL
+	Frequency 132.390
+	Callsign Reims
+	Transfer T_Reims
+	Preferences GACC
+	Centre	N483933 E0063311
+	ScanCentre	N483933 E0063311
+	Range	170
+	TList	N494724 E0080415 On
+	HList	N494027 E0081159 Off
+	OBay	N494726 E0072954 On
+	ABay	N483652 E0063126 Off
+	Status	N494427 E0042050 On
+	CallRadius1 N4754.5 E00735.0 10 285 690
+	CallRadius2 N4824.0 E00641.6 51 285 690
+	CallRadius3 N492113 E0060611 14 285 690
+	RadarSeparation 5
+	Filter 285,690
+	Aerodromes NONE
+	HoldFixes NONE
+	Adjacent SLN,NTM
+;
+; LF - FSBA
+;
+	Sector FSBA
+	Type EXTERNAL
+	Frequency 119.350
+	Callsign BASLE
+	Transfer T_BASLE
+	Preferences GAPP
+	Centre	N474819 E0072323
+	ScanCentre	N474819 E0072323
+	Range	100
+	TList	N482741 E0081552 On
+	HList	N482455 E0082053 Off
+	OBay	N480322 E0081815 On
+	ABay	N474636 E0072214 Off
+	Status	N482713 E0060803 On
+	CallRadius1 N480022 E0074702 16 8 175
+	CallRadius2 N4738.0 E00730.0 20 8 175
+	RadarSeparation 3
+	Filter 0,175
+	Aerodromes LFST,EDSB
+	Adjacent REU,STG,BAD,PFA
+;
+; LF - FSTA
+;
+	Sector FSTA
+	Type EXTERNAL
+	Frequency 119.450
+	Callsign STRASBOURG
+	Transfer T_STRASBOURG
+	Preferences GAPP
+	Centre	N483820 E0073817
+	ScanCentre	N483820 E0073817
+	Range	100
+	TList	N491735 E0083156 On
+	HList	N491453 E0083702 Off
+	OBay	N485316 E0083414 On
+	ABay	N483637 E0073713 Off
+	Status	N491723 E0062159 On
+	CallRadius1 N485751 E0081524 18 8 125
+	CallRadius2 N481301 E0075042 18 8 145
+	CallRadius3 N483509 E0080430 18 8 145
+	CallRadius4 N483125 E0071206 25 8 145
+	RadarSeparation 5
+	Filter 0,145
+	Aerodromes LFST,EDSB
+	Adjacent REU,STG,BAD,PFA
+;
+; LKAA LKNL
+;
+	Sector LKNL
+	Type EXTERNAL
+	Frequency 118.37
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GTCC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N5035.1 E01429.7 32 8 315
+	CallRadius2 N5054.2 E01501.9 18 8 315
+	CallRadius3 N4942.3 E01504.0 45 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH,LKWL
+;
+; LKAA LKNH
+;
+	Sector LKNH
+	Type EXTERNAL
+	Frequency 132.890
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GACC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N5035.1 E01429.7 32 255 385
+	CallRadius2 N5054.2 E01501.9 18 255 385
+	CallRadius3 N4942.3 E01504.0 45 255 385
+	RadarSeparation 5
+	Filter 255,385
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH,LKWH
+;
+; LKAA LKNT
+;
+	Sector LKNT
+	Type EXTERNAL
+	Frequency 134.590
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GACC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N5035.1 E01429.7 32 325 690
+	CallRadius2 N5054.2 E01501.9 18 325 690
+	CallRadius3 N4942.3 E01504.0 45 325 690
+	RadarSeparation 5
+	Filter 325,690
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH,LKWT
+;
+; LKAA LKWL
+;
+	Sector LKWL
+	Type EXTERNAL
+	Frequency 120.275
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GACC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N495909 E0130254 35 255 385
+	CallRadius2 N4931.5 E01341.7 35 255 385
+	CallRadius3 N4856.9 E01420.2 35 255 385
+	CallRadius4 N502530 E0132954 25 8 315
+	RadarSeparation 5
+	Filter 8,315
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH
+;
+; LKAA LKWH
+;
+	Sector LKWH
+	Type EXTERNAL
+	Frequency 132.065
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GACC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N495909 E0130254 40 255 385
+	CallRadius2 N4931.5 E01341.7 35 255 385
+	CallRadius3 N4856.9 E01420.2 35 255 385
+	CallRadius4 N502530 E0132954 25 8 315
+	RadarSeparation 5
+	Filter 255, 385
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH
+;
+; LKAA LKWT
+;
+	Sector LKWT
+	Type EXTERNAL
+	Frequency 133.390
+	Callsign Prague
+	Transfer T_Prague
+	Preferences GACC
+	Centre	N495051 E0133359
+	ScanCentre	N495051 E0133359
+	Range	170
+	TList	N504753 E0145350 On
+	HList	N504607 E0152456 On
+	OBay	N495013 E0133324 Off
+	ABay	N494847 E0133211 Off
+	Status	N505722 E0112710 On
+	CallRadius1 N495909 E0130254 40 255 385
+	CallRadius2 N4931.5 E01341.7 35 255 385
+	CallRadius3 N4856.9 E01420.2 35 255 385
+	CallRadius4 N502530 E0132954 25 8 315
+	RadarSeparation 5
+	Filter 325,690
+	Aerodromes LKPR
+	Adjacent DONU,SPE,FRKH
+;
+; LSAZ EDNY
+;
+	Sector LSNY
+	Type EXTERNAL
+	Frequency 119.925
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GAPP
+	Centre	N474754 E0092323
+	ScanCentre	N474754 E0092323
+	Range	80
+	TList	N481614 E0095700 On
+	HList	N481557 E0101043 On
+	OBay	N474731 E0092302 Off
+	ABay	N474659 E0092247 Off
+	Status	N481737 E0082417 On
+	CallRadius1 N4738.2 E00925.3 20 15 135
+	CallRadius2 N4740.9 E00955.0 18 15 135
+	CallRadius3 N480000 E0091517 20 15 135
+	RadarSeparation 5
+	Filter 0,135
+	Aerodromes EDNY
+	Adjacent BAD,LBU,KPT,STR,REU
+;
+; LSAS LSAP - Zuerich APP -125
+;
+	Sector LSAP
+	Type EXTERNAL
+	Frequency 131.150
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GAPP
+	Centre	N475128 E0084744
+	ScanCentre	N475128 E0084744
+	Range	80
+	TList	N481953 E0092103 On
+	HList	N481944 E0093448 On
+	OBay	N475100 E0084722 Off
+	ABay	N475027 E0084701 Off
+	Status	N482047 E0074813 On
+	CallRadius1 N475615 E0083628 25 25 155
+	CallRadius2 N473744 E0091157 17 55 155
+	RadarSeparation 5
+	Filter 15,155
+	Aerodromes LSZH,EDTD
+	Adjacent BAD,LBU,LSN,TGO,KPT,STR
+;
+; LSAS LSE - Zuerich Low East -245
+;
+	Sector LSE
+	Type EXTERNAL
+	Frequency 136.150
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GTCC
+	Centre	N474106 E0091713
+	ScanCentre	N474106 E0091713
+	Range	100
+	TList	N481631 E0095910 On
+	HList	N481609 E0101619 On
+	OBay	N474037 E0091646 Off
+	ABay	N473956 E0091627 Off
+	Status	N481805 E0080314 On
+	CallRadius1 N473544 E0090922 28 15 275
+	CallRadius2 N473408 E0094303 25 15 275
+	CallRadius3 N480453 E0092010 15 15 275
+	CallRadius4 N475512 E0085918 20 15 275
+	RadarSeparation 5
+	Filter 15,275
+	Aerodromes LSZH
+	Adjacent BAD,LBU,LSN,TGO,KPT,STR
+;
+; LSAS LSN - Zuerich Low North -245
+;
+	Sector LSN
+	Type EXTERNLA
+	Frequency 135.675
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GTCC
+	Centre	N475144 E0081149
+	ScanCentre	N475144 E0081149
+	Range	80
+	TList	N482019 E0084448 On
+	HList	N482015 E0085833 On
+	OBay	N475116 E0081128 Off
+	ABay	N475043 E0081106 Off
+	Status	N482045 E0071157 On
+	CallRadius1 N480622 E0084135 15 15 275
+	CallRadius2 N475441 E0081432 25 15 275
+	CallRadius3 N475755 E0073543 9 15 275
+	RadarSeparation 5
+	Filter 15,275
+	Aerodromes LSZH
+	Adjacent BAD,LBU,LSE,TGO,KPT,STR
+;
+; LSASH LSM - Zuerich Medium 245-285
+;
+	Sector LSM
+	Type EXTERNAL
+	Frequency 133.050
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GACC
+	Centre	N470714 E0083925
+	ScanCentre	N470714 E0083925
+	Range	210
+	TList	N482200 E0100702 On
+	HList	N482108 E0104307 On
+	OBay	N470625 E0083847 Off
+	ABay	N470459 E0083810 Off
+	Status	N482309 E0060249 On
+	CallRadius1 N4702.4 E00831.9 65 215 315
+	CallRadius2 N4735.3 E00927.1 30 215 315
+	CallRadius3 N4754.0 E00748.2 20 215 315
+	RadarSeparation 5
+	Filter 0,690
+	Aerodromes LSZH
+	Adjacent BAD,LBU,SLN,TGO,KPT,STR
+;
+; LSASH LSH - Zuerich High 285-325
+;
+	Sector LSH
+	Type EXTERNAL
+	Frequency 132.815
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GACC
+	Centre	N470714 E0083925
+	ScanCentre	N470714 E0083925
+	Range	210
+	TList	N482200 E0100702 On
+	HList	N482108 E0104307 On
+	OBay	N470625 E0083847 Off
+	ABay	N470459 E0083810 Off
+	Status	N482309 E0060249 On
+	CallRadius1 N4702.4 E00831.9 65 255 355
+	CallRadius2 N4735.3 E00927.1 30 255 355
+	CallRadius3 N4754.0 E00748.2 20 255 355
+	RadarSeparation 5
+	Filter 0,690
+	Aerodromes LSZH
+	Adjacent LIPH,BAD,LBU,SLN,TGO,KPT,STR
+;
+; LSASH LSU - Zuerich Upper 325-355
+;
+	Sector LSU
+	Type EXTERNAL
+	Frequency 134.605
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GACC
+	Centre	N470714 E0083925
+	ScanCentre	N470714 E0083925
+	Range	210
+	TList	N482200 E0100702 On
+	HList	N482108 E0104307 On
+	OBay	N470625 E0083847 Off
+	ABay	N470459 E0083810 Off
+	Status	N482309 E0060249 On
+	CallRadius1 N4702.4 E00831.9 65 295 385
+	CallRadius2 N4735.3 E00927.1 30 295 385
+	CallRadius3 N4754.0 E00748.2 20 295 385
+	RadarSeparation 5
+	Filter 0,690
+	Aerodromes LSZH
+	Adjacent BAD,LBU,SLN,TGO,KPT,STR
+;
+; LSASH LST - Zuerich Top 355-660
+;
+	Sector LST
+	Type EXTERNAL
+	Frequency 133.405
+	Callsign Swiss
+	Transfer T_Swiss
+	Preferences GACC
+	Centre	N470714 E0083925
+	ScanCentre	N470714 E0083925
+	Range	210
+	TList	N482200 E0100702 On
+	HList	N482108 E0104307 On
+	OBay	N470625 E0083847 Off
+	ABay	N470459 E0083810 Off
+	Status	N482309 E0060249 On
+	CallRadius1 N4702.4 E00831.9 65 325 690
+	CallRadius2 N4735.3 E00927.1 30 325 690
+	CallRadius3 N4754.0 E00748.2 20 325 690
+	RadarSeparation 5
+	Filter 0,690
+	Aerodromes LSZH
+	Adjacent BAD,LBU,SLN,TGO,KPT,STR
+;
+; WITA - Innsbruck Approach
+;
+	Sector WITA
+	Type EXTERNAL
+	Frequency 119.275
+	Callsign Wien
+	Preferences GACC
+	Centre	N472246 E0111851
+	ScanCentre	N472246 E0111851
+	Range	120
+	TList	N480427 E0121039 On
+	HList	N480337 E0123108 On
+	OBay	N472233 E0111830 Off
+	ABay	N472138 E0111755 Off
+	Status	N480829 E0095208 On
+	CallRadius1 N472151 E0120728 26 15 195
+	CallRadius2 N471221 E0102835 25 15 195
+	CallRadius3 N470943 E0110439 25 15 195
+	CallRadius4 N471721 E0113008 25 15 195
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 0,195
+	Aerodromes LOWI
+;
+; WKTA - Klagenfurt Approach
+;
+	Sector WKTA
+	Type EXTERNAL
+	Frequency 126.825
+	Callsign Wien
+	Preferences GACC
+	Centre	N470544 E0132117
+	ScanCentre	N470544 E0132117
+	Range	160
+	TList	N475956 E0143224 On
+	HList	N475815 E0145935 On
+	OBay	N470526 E0132047 Off
+	ABay	N470414 E0131958 Off
+	Status	N480819 E0112806 On
+	CallRadius1 N473101 E0125325 25 15 195
+	CallRadius2 N465131 E0135911 42 15 195
+	CallRadius3 N4657.3 E01216.5 20 15 195
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 0,155
+	Aerodromes LOWK
+;
+;
+; WSTA - Salzburg App
+;
+	Sector WSTA
+	Type EXTERNAL
+	Frequency 123.725
+	Callsign Wien
+	Preferences GACC
+	Centre	N474724 E0131739
+	ScanCentre	N474724 E0131739
+	Range	110
+	TList	N482439 E0140654 On
+	HList	N482335 E0142536 On
+	OBay	N474706 E0131708 Off
+	ABay	N474616 E0131634 Off
+	Status	N483029 E0115914 On
+	CallRadius1 N480317 E0125602 25 12 155
+	CallRadius2 N474616 E0132318 27 12 155
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 5,185
+	Aerodromes EDDM,LOWS
+	Adjacent TEG,EGG
+;
+; WB5L - Salzburg Low
+;
+	Sector WB5L
+	Type EXTERNAL
+	Frequency 131.350
+	Callsign Wien
+	Preferences GACC
+	Centre	N474724 E0131739
+	ScanCentre	N474724 E0131739
+	Range	110
+	TList	N482439 E0140654 On
+	HList	N482335 E0142536 On
+	OBay	N474706 E0131708 Off
+	ABay	N474616 E0131634 Off
+	Status	N483029 E0115914 On
+	CallRadius1 N480317 E0125602 25 95 315
+	CallRadius2 N474616 E0132318 27 95 315
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 95,315
+	Aerodromes EDDM,LOWS
+	Adjacent TEG,EGG
+;
+; WB5U  - Salzburg Upper
+;
+	Sector WB5U
+	Type EXTERNAL
+	Frequency 133.8
+	Callsign Wien
+	Preferences GACC
+	Centre	N474724 E0131739
+	ScanCentre	N474724 E0131739
+	Range	110
+	TList	N482439 E0140654 On
+	HList	N482335 E0142536 On
+	OBay	N474706 E0131708 Off
+	ABay	N474616 E0131634 Off
+	Status	N483029 E0115914 On
+	CallRadius1 N480317 E0125602 25 255 375
+	CallRadius2 N474616 E0132318 27 255 375
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 255,375
+	Aerodromes EDDM,LOWS
+	Adjacent CHIH,DONU
+;
+; WB5T - Salzburg Top
+;
+	Sector WB5T
+	Type EXTERNAL
+	Frequency 132.6
+	Callsign Wien
+	Preferences GACC
+	Centre	N474724 E0131739
+	ScanCentre	N474724 E0131739
+	Range	110
+	TList	N482439 E0140654 On
+	HList	N482335 E0142536 On
+	OBay	N474706 E0131708 Off
+	ABay	N474616 E0131634 Off
+	Status	N483029 E0115914 On
+	CallRadius1 N480317 E0125602 25 315 690
+	CallRadius2 N474616 E0132318 27 315 690
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 315,690
+	Aerodromes EDDM,LOWS
+	Adjacent TEG,EGG
+;
+;
+; WKSL - Klagenfurt Low
+;
+	Sector WKSL
+	Type EXTERNAL
+	Frequency 133.6
+	Callsign Wien
+	Preferences GACC
+	Centre	N470544 E0132117
+	ScanCentre	N470544 E0132117
+	Range	160
+	TList	N475956 E0143224 On
+	HList	N475815 E0145935 On
+	OBay	N470526 E0132047 Off
+	ABay	N470414 E0131958 Off
+	Status	N480819 E0112806 On
+	CallRadius1 N473732 E0124948 12 135 315
+	CallRadius2 N472418 E0131031 12 135 315
+	CallRadius3 N470829 E0134543 24 135 315
+	CallRadius4 N464030 E0142813 26 135 315
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 95,315
+	Aerodromes EDDM,LOWS
+	Adjacent INN,TEG
+;
+; WRSL - Rattenberg Low
+;
+	Sector WRSL
+	Type EXTERNAL
+	Frequency 129.2
+	Callsign Wien
+	Preferences GACC
+	Centre	N470544 E0132117
+	ScanCentre	N470544 E0132117
+	Range	160
+	TList	N475956 E0143224 On
+	HList	N475815 E0145935 On
+	OBay	N470526 E0132047 Off
+	ABay	N470414 E0131958 Off
+	Status	N480819 E0112806 On
+	CallRadius1 N472027 E0122523 28 135 315
+	CallRadius2 N465116 E0123714 33 135 315
+	CallRadius3 N463646 E0133900 20 135 315
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 95,315
+	Aerodromes EDDM,LOWS
+	Adjacent INN,TEG
+;
+; WWST - Wien West Top
+;
+	Sector WWST
+	Type EXTERNAL
+	Frequency 126.280
+	Callsign Wien
+	Preferences GACC
+	Centre	N470544 E0132117
+	ScanCentre	N470544 E0132117
+	Range	160
+	TList	N475956 E0143224 On
+	HList	N475815 E0145935 On
+	OBay	N470526 E0132047 Off
+	ABay	N470414 E0131958 Off
+	Status	N480819 E0112806 On
+	CallRadius1 N471159 E0123517 42 335 690
+	CallRadius2 N465131 E0135911 42 335 690
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 95,315
+	Aerodromes EDDM,LOWS
+	Adjacent ALPT,CHIH
+;
+; WWSU - Wien West Upper
+;
+	Sector WWSU
+	Type EXTERNAL
+	Frequency 129.125
+	Callsign Wien
+	Preferences GACC
+	Centre	N470544 E0132117
+	ScanCentre	N470544 E0132117
+	Range	160
+	TList	N475956 E0143224 On
+	HList	N475815 E0145935 On
+	OBay	N470526 E0132047 Off
+	ABay	N470414 E0131958 Off
+	Status	N480819 E0112806 On
+	CallRadius1 N471159 E0123517 42 255 365
+	CallRadius2 N465131 E0135911 42 255 365
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 255,375
+	Aerodromes EDDM,LOWS
+	Adjacent STA,TEG
+;
+; WLTA - Linz Approach
+;
+	Sector WLTA
+	Type EXTERNAL
+	Frequency 119.750
+	Callsign Wien
+	Preferences GACC
+	Centre	N481247 E0134629
+	ScanCentre N481247 E0134629
+	Range	110
+	TList	N484955 E0143632 On
+	HList	N484846 E0145532 On
+	OBay	N481235 E0134608 Off
+	ABay	N481145 E0134533 Off
+	Status	N485624 E0122752 On
+	CallRadius1 N4813.8 E01406.2 40 0 155
+	CallRadius2 N4752.5 E01617.3 55 0 155
+	RadarSeparation 3
+;	ScaleMarker N4750 E01050
+	Filter 0,155
+	Aerodromes LOWL
+;
+; WWNL - Linz Lower
+;
+	Sector WWNL
+	Type EXTERNAL
+	Frequency 128.7
+	Callsign Wien
+	Preferences GACC
+	Centre	N481247 E0134629
+	ScanCentre N481247 E0134629
+	Range	110
+	TList	N484955 E0143632 On
+	HList	N484846 E0145532 On
+	OBay	N481235 E0134608 Off
+	ABay	N481145 E0134533 Off
+	Status	N485624 E0122752 On
+	CallRadius1 N4813.8 E01406.2 40 95 315
+	CallRadius2 N4752.5 E01617.3 55 95 315
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 95,305
+	Aerodromes LOWL
+;
+; WNSU - Linz Upper
+;
+	Sector WNSU
+	Type EXTERNAL
+	Frequency 134.350
+	Callsign Wien
+	Preferences GACC
+	Centre	N481247 E0134629
+	ScanCentre N481247 E0134629
+	Range	110
+	TList	N484955 E0143632 On
+	HList	N484846 E0145532 On
+	OBay	N481235 E0134608 Off
+	ABay	N481145 E0134533 Off
+	Status	N485624 E0122752 On
+	CallRadius1 N4813.8 E01406.2 40 255 375
+	CallRadius2 N4752.5 E01617.3 55 255 375
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 255,375
+;
+; WNST - Linz Top
+;
+	Sector WNST
+	Type EXTERNAL
+	Frequency 119.880
+	Callsign Wien
+	Preferences GACC
+	Centre	N481247 E0134629
+	ScanCentre N481247 E0134629
+	Range	110
+	TList	N484955 E0143632 On
+	HList	N484846 E0145532 On
+	OBay	N481235 E0134608 Off
+	ABay	N481145 E0134533 Off
+	Status	N485624 E0122752 On
+	CallRadius1 N4813.8 E01406.2 40 315 690
+	CallRadius2 N4752.5 E01617.3 55 315 690
+	RadarSeparation 5
+;	ScaleMarker N4750 E01050
+	Filter 315,690
+;
+; LIPL - Padova Lo
+;
+	Sector LIPL
+	Type EXTERNAL
+	Frequency 120.725
+	Callsign Padova
+	Transfer T_Padova
+	Preferences GACC
+	Centre	N462244 E0110603
+	ScanCentre N462244 E0110603
+	Range	140
+	TList	N471126 E0120525 On
+	HList	N471029 E0122855 On
+	OBay	N462219 E0110549 Off
+	ABay	N462115 E0110509 Off
+	Status	N471555 E0092618 On	
+	CallRadius1 N462047 E0110655 50 0 275
+	RadarSeparation 5
+	Filter 0,350
+	Adjacent KPT,INN
+;
+; LIPH - Padova Hi
+;
+	Sector LIPH
+	Type EXTERNAL
+	Frequency 132.860
+	Callsign Padova
+	Transfer T_Padova
+	Preferences GACC
+	Centre	N462244 E0110603
+	ScanCentre N462244 E0110603
+	Range	140
+	TList	N471126 E0120525 On
+	HList	N471029 E0122855 On
+	OBay	N462219 E0110549 Off
+	ABay	N462115 E0110509 Off
+	Status	N471555 E0092618 On	
+	CallRadius1 N462047 E0110655 50 215 355
+	RadarSeparation 5
+	Filter 215,335
+	Aerodromes EDDM
+	Adjacent KPT,INN
+;
+; LIPU - Padova Upper
+;
+	Sector LIPU
+	Type EXTERNAL
+	Frequency 133.705
+	Callsign Padova
+	Transfer T_Padova
+	Preferences GACC
+	Centre	N462244 E0110603
+	ScanCentre N462244 E0110603
+	Range	140
+	TList	N471126 E0120525 On
+	HList	N471029 E0122855 On
+	OBay	N462219 E0110549 Off
+	ABay	N462115 E0110509 Off
+	Status	N471555 E0092618 On	
+	CallRadius1 N462047 E0110655 50 295 385
+	RadarSeparation 5
+	Filter 275 385
+	Aerodromes EDDM
+	Adjacent ALPU
+;
+; LIPT - Padova Top
+;
+	Sector LIPT
+	Type EXTERNAL
+	Frequency 133.305
+	Callsign Padova
+	Transfer T_Padova
+	Preferences GACC
+	Centre	N462244 E0110603
+	ScanCentre N462244 E0110603
+	Range	140
+	TList	N471126 E0120525 On
+	HList	N471029 E0122855 On
+	OBay	N462219 E0110549 Off
+	ABay	N462115 E0110509 Off
+	Status	N471555 E0092618 On	
+	CallRadius1 N462047 E0110655 50 325 690
+	RadarSeparation 5
+	Filter 325 690
+	Aerodromes EDDM
+	Adjacent ALPT
+;
+; Dummy Sector
+;
+	Sector VOID
+	Type ACC
+	Frequency 123.450
+	Callsign Muenchen
+	Transfer T_Muenchen
+	Preferences GACC
+	Centre	N510613 E0100950
+	ScanCentre	N510613 E0100950
+	Range	500
+	TList	N540936 E0152013 Off
+	HList	N533006 E0154330 Off
+	OBay	N541919 E0114007 Off
+	ABay	N541504 E0133001 Off
+	Status	N541928 E0031644 Off
+	RadarSeparation 5
+	Filter 0,999
+	Aerodromes NONE
+	HoldFixes NONE
+	Secondary NONE
+;new sectors
+;
+; EHAM Twr - Amsterdam
+;
+	Sector AMTWR
+	Type TOWER
+	Frequency 119.225
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5218.5 E00445.8 7 0 30
+;
+;
+; EHEH Twr - Eindhoven
+;
+	Sector EHTWR
+	Type TOWER
+	Frequency 131.000
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N512700 E0052228 7 0 30
+;
+; EHAM app
+;
+	Sector AMAPP
+	Type EXTERNAL
+	Frequency 123.975
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GAPP
+	Centre	N5218.5 E00445.8
+	ScanCentre N5218.5 E00445.8
+	Range	80
+	TList	N5218.5 E00445.8 On
+	HList	N5218.5 E00445.8 Off
+	OBay	N5218.5 E00445.8 On
+	ABay	N5218.5 E00445.8 On
+	Status	N5218.5 E00445.8 On
+	CallRadius1 N5218.5 E00445.8 25 8 95
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes EHAM
+;
+;
+; EHRD app
+;
+	Sector RDAPP
+	Type EXTERNAL
+	Frequency 123.975
+	Callsign Amsterdam
+	Transfer T_Amsterdam
+	Preferences GAPP
+	Centre	N515725	E0042614
+	ScanCentre N515725 E0042614
+	Range	80
+	TList	N515725	E0042614 On
+	HList	N515725	E0042614 Off
+	OBay	N515725	E0042614 On
+	ABay	N515725	E0042614 On
+	Status	N515725	E0042614 On
+	CallRadius1 N515725 E0042614 25 8 95
+	RadarSeparation 3
+	Filter 8,105
+	Aerodromes EHRD
+;
+; EBBR Twr - Brussel
+;
+	Sector BRTWR
+	Type TOWER
+	Frequency 118.600
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N5054.1 E00429.1 7 0 40
+;
+; EBCI Twr - Charleroi
+;
+	Sector CITWR
+	Type TOWER
+	Frequency 121.300
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N502733 E0042714 7 0 40
+;
+; EBLG Twr - Liege
+;
+	Sector LGTWR
+	Type TOWER
+	Frequency 129.250
+	Callsign Tower
+	Transfer Tower
+	CallRadius1 N503811 E0052634 7 0 40
+;
+;
+; Must indicate end
+;
+
+End
